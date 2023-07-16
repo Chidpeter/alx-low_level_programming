@@ -6,10 +6,15 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
-	char a[] = abcdefghijklmnopqrstuvwxyz;
+	char n = 'a';
 
-	putchar('a');
+	while (n <= 'z')
+	{
+	putchar('n');
+	n++;
+	}
+	putchar('\n')
 	return (0);
 }

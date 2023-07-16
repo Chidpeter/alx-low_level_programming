@@ -8,8 +8,9 @@
 
 int main(void)
 {
-	char a[] = "abcdefghijklmnopqrstuvwxyz"
+	char a;
 
-	putchar("a\n");
+	a = "abcdefghijklmnopqrstuvwxyz";
+	putchar("%d", a);
 	return (0);
 }

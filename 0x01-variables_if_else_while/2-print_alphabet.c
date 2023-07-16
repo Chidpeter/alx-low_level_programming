@@ -8,9 +8,6 @@
 
 int main(void)
 {
-	char a;
-
-	a = abcdefghijklmnopqrstuvwxyz;
-	putchar("%s", a);
+	putchar('abcdefghijklmnopqrstuvwxyz');
 	return (0);
 }

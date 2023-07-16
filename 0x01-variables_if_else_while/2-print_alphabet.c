@@ -6,8 +6,10 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
-	putchar('abcdefghijklmnopqrstuvwxyz');
+	char a[] = abcdefghijklmnopqrstuvwxyz;
+
+	putchar('a');
 	return (0);
 }

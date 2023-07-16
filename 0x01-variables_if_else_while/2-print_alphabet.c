@@ -10,7 +10,7 @@ int main(void)
 {
 	char a;
 
-	a = "abcdefghijklmnopqrstuvwxyz";
-	putchar("%d", a);
+	a = abcdefghijklmnopqrstuvwxyz;
+	putchar("%s", a);
 	return (0);
 }

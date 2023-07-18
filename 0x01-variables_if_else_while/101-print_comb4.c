@@ -14,7 +14,7 @@ int main(void)
 	{
 	for (b = a + 1; b < 10; b++)
 	{
-	for (c = a + 2; c < 10; c++)
+	for (c = b + 1; c < 10; c++)
 	{
 	if (a == b && a == c)
 	{

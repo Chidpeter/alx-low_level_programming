@@ -1,15 +1,22 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - A program that prints putchar
  *
- * Return: Alaways 0 (Success)
+ * Return: Always 0 (Success)
  */
 
-int main(void)
+int _putchar(void)
 {
-	char a[] = "_putchar";
-
-	printf("%s\n", a);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }

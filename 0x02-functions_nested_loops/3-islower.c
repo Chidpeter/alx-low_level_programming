@@ -4,7 +4,7 @@
  * _islower - Checks for lowercase c in alphabets
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	for (c >= 'a' && c <= 'z')
 	{

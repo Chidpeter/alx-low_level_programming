@@ -20,4 +20,5 @@ int more_numbers(void)
 	}
 	_putchar('\n');
 	}
+	return (0);
 }

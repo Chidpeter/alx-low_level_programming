@@ -4,7 +4,8 @@
  * more_numbers - prints numbers
  * Return: Always 0
  */
-int more_numbers(void)
+
+void more_numbers(void)
 {
 	int a;
 	int b;

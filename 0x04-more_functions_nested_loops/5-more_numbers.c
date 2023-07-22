@@ -4,13 +4,12 @@
  * more_numbers - prints numbers
  * Return: Always 0
  */
-
 int more_numbers(void)
 {
 	int a;
 	int b;
 
-	for (b = 0; b <= 10; b++)
+	for (b = 0; b < 10; b++)
 	{
 	for (a = 0; a <= 14; a++)
 	{
@@ -20,5 +19,4 @@ int more_numbers(void)
 	}
 	_putchar('\n');
 	}
-	return (0);
 }

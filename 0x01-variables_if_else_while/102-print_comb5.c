@@ -8,31 +8,29 @@
 
 int main(void)
 {
-	int a, b;
-
-	for (a = 0; a < 100; a++)
+	int a;
+	int b;
+	
+	a = 0;
+	b = 0;
+	while (a < 100)
 	{
-	for (b = a + 1; b < 100; b++)
-	{
-	if (a == b)
-	{
-	continue;
-	}
-	if (a % 10 == b / 10 && a / 10 < b % 10)
+	b = a + 1;
+	while (b < 100)
 	{
 	putchar(a / 10 + '0');
 	putchar(a % 10 + '0');
 	putchar(' ');
 	putchar(b / 10 + '0');
 	putchar(b % 10 + '0');
-	if (a == 99 && b == 99)
+	if (a != 98 || b != 99)
 	{
-	break;
-	}
 	putchar(',');
 	putchar(' ');
 	}
+	b++;
 	}
+	a++;
 	}
 	putchar('\n');
 	return (0);

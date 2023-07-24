@@ -29,6 +29,11 @@ void print_times_table(int n)
 	_putchar(a * b + '0');
 	}
 	}
+	else
+	{
+	putchar((a * b / 10) + '0');
+	putchar((a * b % 10) + '0');
+	}
 	_putchar('\n');
 	}
 }

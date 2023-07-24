@@ -22,14 +22,12 @@ void print_times_table(int n)
 	{
 	_putchar('0');
 	}
-	else
-	{
 	_putchar(',');
 	_putchar(' ');
 	_putchar(a * b + '0');
 	}
 	}
-	else
+	if (n > 9)
 	{
 	putchar((a * b / 10) + '0');
 	putchar((a * b % 10) + '0');

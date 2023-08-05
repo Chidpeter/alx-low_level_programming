@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * main - a fn that prints all args it receives

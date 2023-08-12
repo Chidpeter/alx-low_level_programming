@@ -12,6 +12,8 @@ void print_diagonal(int n)
 	{
 	_putchar('\n');
 	}
+	else
+	{
 
 	int a, b;
 
@@ -25,5 +27,6 @@ void print_diagonal(int n)
 	_putchar(' ');
 	}
 	_putchar('\n');
+	}
 	}
 }

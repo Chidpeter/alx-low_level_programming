@@ -16,7 +16,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t t;
 	char *buffer;
 
-	chidi = fopen(filename, O_RDWR);
+	chidi = open(filename, O_RDWR);
 	if (chidi == -1)
 	return (0);
 

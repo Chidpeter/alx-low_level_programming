@@ -23,7 +23,9 @@ int create_file(const char *filename, char *text_content)
 	int length = 0;
 
 	if (filename == NULL)
+	{
 	return (-1);
+	}
 
 	if (text_content != NULL)
 	{
@@ -36,7 +38,9 @@ int create_file(const char *filename, char *text_content)
 
 	writer = write(chidi, text_content, length);
 	if (chidi == -1 || writer == -1)
+	{
 	return (-1);
+	}
 
 	close(chidi);
 	return (1);
